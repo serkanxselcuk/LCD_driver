@@ -58,11 +58,14 @@ NOTE: The default virtual resolution of the Raspberry Pi is 480*320. Maybe your 
 			Rotate 90° sudo ./LCD35_fbcp 90
 			Rotate 180° sudo ./LCD35_fbcp 180
 			Rotate 270° sudo ./LCD35_fbcp 270
+
 Note: You must use this command before you update the system. sudo apt-mark hold raspberrypi-bootloader (lock basic configuration does not change)
 		
+*****
 
-		Then use the command,
-		Sudo apt-get update
-		Sudo apt-get upgrade
-		Sudo apt-get dist-upgrade (This command is not recommended for upgrades, updates are up to date, but may be unsafe）
-Otherwise it may fail after rebooting
+Then use the command,
+	Sudo apt-get update
+	Sudo apt-get upgrade
+	Sudo apt-get dist-upgrade (This command is not recommended for upgrades, updates are up to date, but may be unsafe）
+
+	Otherwise it may fail after rebooting
